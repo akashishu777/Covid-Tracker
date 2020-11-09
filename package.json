@@ -4,8 +4,7 @@
   "description": "covid dashboard",
   "private": true,
   "author": {
-    "name": "Akash Vishwakarma",
-    "url": "https://akashishu777.github.io/Covid-Tracker/"
+    "name": "Akash Vishwakarma"
   },
   "dependencies": {
     "connected-react-router": "^4.4.1",
