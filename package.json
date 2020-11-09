@@ -29,6 +29,7 @@
     "semantic-ui-react": "^2.0.1",
     "styled-components": "^5.2.1"
   },
+  "homepage" : "https://akashishu777.github.io/Covid-Tracker/",
   "scripts": {
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
