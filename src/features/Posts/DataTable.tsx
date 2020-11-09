@@ -16,7 +16,7 @@ const DataTableComp = (props: any) => {
       keys="name"
       columns={columns}
       initialData={props.data}
-      initialPageLength={10}
+      initialPageLength={5}
       initialSortBy={{ prop: 'Country', order: 'ascending' }}
     />
 )
