@@ -5,7 +5,7 @@
   "private": true,
   "author": {
     "name": "Akash Vishwakarma",
-    "url": "http://localhost:3000/"
+    "url": "https://akashishu777.github.io/Covid-Tracker/"
   },
   "dependencies": {
     "connected-react-router": "^4.4.1",
