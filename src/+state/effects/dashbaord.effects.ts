@@ -1,21 +1,17 @@
-import axios from 'axios';
 import { call, put } from 'redux-saga/effects';
 import * as postActions from '../actions/dashbaord.actions';
+import { api } from './api';
 
-const url = 'https://api.covid19api.com/summary';
-
-function getPosts() {
-  return axios({
-    method: 'get',
-    url
-  });
+function getCovidData() {
+  const url = 'https://api.covid19api.com/summary';
+  return api(url);
 }
 
 export function* getCodivSaga() {
   let payload;
   try {
-    const response = yield call(getPosts);
-    payload = response.data;
+    const response = yield call(getCovidData);
+    payload = response;
     yield put(postActions.createCovidSuccess(payload));
 
   } catch(error) {

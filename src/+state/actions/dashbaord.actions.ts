@@ -1,4 +1,4 @@
-import { IPost } from '../../types/models';
+import { ICovidData } from '../../types/models';
 
 export enum ActionTypes {
   COVID_GET_INIT = '[COVID] Get Init',
@@ -18,7 +18,7 @@ interface ICovidGetInit {
 
 interface ICodidGetSuccess {
   readonly type: ActionTypes.COVID_GET_SUCCESS;
-  payload: IPost[];
+  payload: ICovidData[];
 }
 
 interface ICovidGetError {
@@ -34,7 +34,7 @@ export function loadCovidData(): ICovidGetInit {
   };
 }
 
-export function createCovidSuccess(response: IPost[]): ICodidGetSuccess {
+export function createCovidSuccess(response: ICovidData[]): ICodidGetSuccess {
   return {
     type: ActionTypes.COVID_GET_SUCCESS,
     payload: response,

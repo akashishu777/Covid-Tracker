@@ -5,7 +5,7 @@ App for tracking covid-19 cases
 ## Running
 
 ```
-git clone https://github.com/akashishu777/
+git clone https://github.com/akashishu777/Covid-Tracker.git
 ```
  go to directory and run, this will install all dependencies for the project.
 ```
