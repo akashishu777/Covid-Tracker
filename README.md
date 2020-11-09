@@ -1,5 +1,5 @@
 # Covid Tracker 
-App for tracking covid-19 cases 
+App for tracking covid-19 cases : https://akashishu777.github.io/Covid-Tracker/
 
 
 ## Running
